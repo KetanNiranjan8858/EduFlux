@@ -12,8 +12,8 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <Feature></Feature>
-      <Footer></Footer>
       <Reward></Reward>
+      <Footer></Footer>
     </div>
   )
 }
