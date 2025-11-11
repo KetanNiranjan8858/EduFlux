@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 function Header() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className = 'flex justify-around items-center p-4 bg-white text-white fixed top-0 w-full z-10 shadow-md'>

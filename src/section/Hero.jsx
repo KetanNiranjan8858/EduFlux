@@ -3,7 +3,6 @@ import { useState } from 'react';
 import heroBackgroundImage from '../assets/heropic.png'; 
 
 function Hero() {
-  const [count, setCount] = useState(0);
 
   return (
     <section 
