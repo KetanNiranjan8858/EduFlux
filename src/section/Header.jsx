@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Link } from "react-router-dom";
 
 function Header() {
 
@@ -16,7 +16,11 @@ function Header() {
         <li className='cursor-pointer hover:text-gray-500 transition duration-150 text-black'>Resume Analysis</li>
       </ul>
       <div className='flex gap-4'>
-        <button className='font-semibold text-black text-xl p-3 border-2 border-black rounded-lg hover:bg-gray-200'>Login</button>
+        <Link to="/login">
+          <button 
+        className='font-semibold text-black text-xl p-3 border-2 border-black rounded-lg hover:bg-gray-200'
+        >Login</button>
+        </Link>
         <button className='bg-blue-600 hover:bg-sky-400 font-semibold text-white text-xl p-3 rounded-lg transition duration-300'>Signup</button>
       </div>
     </div>
